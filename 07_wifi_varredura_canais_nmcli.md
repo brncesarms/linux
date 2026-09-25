@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Varredura e Seleção do Melhor Canal Wi-Fi no Linux com nmcli"
 date_created: 2026-08-17
-author: "Bruno César / Antigravity"
+author: "Bruno César"
 privacy: public
 tags:
   - publico

@@ -1,7 +1,7 @@
 ---
 title: "Containers: Distrobox e Docker"
 date_created: 2026-08-28
-author: "Bruno César / Antigravity"
+author: "Bruno César"
 privacy: public
 tags:
   - publico

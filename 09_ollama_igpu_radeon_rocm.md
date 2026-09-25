@@ -1,7 +1,7 @@
 ---
 title: "Ativar GPU iGPU (Radeon 780M) no Ollama"
 date_created: 2026-09-04
-author: "Bruno César / Antigravity"
+author: "Bruno César"
 privacy: public
 tags:
   - publico
