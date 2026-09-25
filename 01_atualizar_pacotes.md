@@ -1,7 +1,10 @@
 ---
 title: "Linux: Atualizar Pacotes"
 date_created: 2026-08-17
+author: "Bruno César / Antigravity"
+privacy: public
 tags:
+  - publico
   - linux/atualizacao
   - linux/fedora
   - linux/ubuntu
@@ -10,6 +13,20 @@ tags:
 # 🔄 Linux: Atualizar Pacotes
 
 > [!info] Comandos para atualizar pacotes no Fedora e Ubuntu, garantindo que o sistema esteja sempre na versão mais recente.
+
+---
+
+## 🌀 Omarchy & Arch Linux
+
+> [!info] O Omarchy unifica as atualizações do sistema base Arch, pacotes AUR e utilitários de ambiente via ferramenta nativa `omarchy` ou `pacman`.
+
+```bash
+# Atualização completa recomendada do ecossistema Omarchy:
+omarchy update -y
+
+# Atualização nativa dos repositórios oficiais do Arch Linux:
+sudo pacman -Syu
+```
 
 ---
 
@@ -40,5 +57,5 @@ sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
 > ```
 
 ## 🔗 Notas Relacionadas
-- [Linux: Pós-instalação do Fedora](fedora--pos-instalacao.md) — Guia completo de configuração após instalação do Fedora.
-- [Linux: Homebrew](homebrew.md) — Instalação do Homebrew para gerenciar pacotes sem sudo.
+- [Linux: Pós-instalação do Fedora](03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
+- [Linux: Homebrew](10_homebrew_gerenciador_pacotes.md) — Instalação do Homebrew para gerenciar pacotes sem sudo.

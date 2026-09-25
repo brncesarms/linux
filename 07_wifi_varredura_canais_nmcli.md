@@ -1,14 +1,16 @@
 ---
 title: "Tutorial: Varredura e Seleção do Melhor Canal Wi-Fi no Linux com nmcli"
 date_created: 2026-08-17
+author: "Bruno César / Antigravity"
+privacy: public
 tags:
+  - publico
   - wifi
   - nmcli
   - linux
   - redes
-sources:
-  - https://networkmanager.dev/docs/api/latest/nmcli.html
 ---
+
 # 📶 Guia Prático: Como Escolher o Melhor Canal Wi-Fi no Linux com `nmcli`
 
 Este guia foi estruturado no formato Markdown ideal para ser importado diretamente no seu cofre do **Obsidian**. Ele combina os comandos práticos do `nmcli` com as melhores diretrizes de redes sem fio para otimizar a estabilidade e velocidade da sua rede doméstica.
@@ -121,6 +123,6 @@ nmcli device wifi hotspot channel <numero_do_canal>
 > O `nmcli` cuida apenas do lado da recepção do seu dispositivo Linux. A escolha final do canal e da largura de banda é feita no painel administrativo do seu roteador, seguindo a regra dos canais 1/6/11 (2.4 GHz) ou dos canais não-DFS 36-48 e 149-165 (5 GHz).
 
 ## 🔗 Notas Relacionadas
-- [Linux: Pós-instalação do Fedora](./fedora--pos-instalacao.md) — Guia completo de configuração após instalação do Fedora.
-- [Linux: Atualizar Pacotes](./1-atualizar-pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- 🎓 [T.I. — Mapa de Conteúdo](../README.md) — Índice geral.
+- [Linux: Pós-instalação do Fedora](./03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
+- [Linux: Atualizar Pacotes](./01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
+- 🎓 [T.I. — Mapa de Conteúdo](README.md) — Índice geral.

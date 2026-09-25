@@ -1,7 +1,10 @@
 ---
 title: "Fedora: Pós-instalação"
 date_created: 2026-08-17
+author: "Bruno César / Antigravity"
+privacy: public
 tags:
+  - publico
   - linux/fedora
   - linux/pos-instalacao
 ---
@@ -115,6 +118,6 @@ sudo dnf install xorg-x11-drv-nvidia-cuda
 ```
 
 ## 🔗 Notas Relacionadas
-- [Linux: FFmpeg com NVIDIA](ffmpeg.md) — Transcodificação de vídeo com aceleração NVENC.
-- [Linux: Atualizar Pacotes](1-atualizar-pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- [Linux: Virt Manager](virtualizacao--virt-manager.md) — Instalação e configuração do Virt Manager para virtualização.
+- [Linux: FFmpeg com NVIDIA](08_ffmpeg_nvenc_transcodificacao.md) — Transcodificação de vídeo com aceleração NVENC.
+- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
+- [Linux: Virt Manager](05_virtualizacao_virt_manager.md) — Instalação e configuração do Virt Manager para virtualização.

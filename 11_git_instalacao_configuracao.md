@@ -1,7 +1,10 @@
 ---
 title: "Git: Instalação e Configuração"
 date_created: 2026-08-17
+author: "Bruno César / Antigravity"
+privacy: public
 tags:
+  - publico
   - linux/git
   - dev/git
 ---
@@ -39,5 +42,5 @@ git config --global user.name "SEU_USUARIO"
 ```
 
 ## 🔗 Notas Relacionadas
-- [Linux: Atualizar Pacotes](1-atualizar-pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- [Linux: Homebrew](homebrew.md) — Instalação do Homebrew para gerenciar pacotes sem sudo.
+- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
+- [Linux: Homebrew](10_homebrew_gerenciador_pacotes.md) — Instalação do Homebrew para gerenciar pacotes sem sudo.

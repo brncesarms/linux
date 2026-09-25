@@ -1,7 +1,10 @@
 ---
 title: "Homebrew: Gerenciador de Pacotes para Linux"
 date_created: 2026-08-17
+author: "Bruno César / Antigravity"
+privacy: public
 tags:
+  - publico
   - linux/homebrew
   - linux/gerenciador-pacotes
 ---
@@ -69,5 +72,5 @@ brew doctor
 ```
 
 ## 🔗 Notas Relacionadas
-- [Linux: Atualizar Pacotes](1-atualizar-pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- [Linux: Pós-instalação do Fedora](fedora--pos-instalacao.md) — Guia completo de configuração após instalação do Fedora.
+- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
+- [Linux: Pós-instalação do Fedora](03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.

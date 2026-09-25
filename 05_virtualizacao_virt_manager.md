@@ -1,7 +1,10 @@
 ---
 title: "Virt Manager: Virtualização no Linux"
 date_created: 2026-08-17
+author: "Bruno César / Antigravity"
+privacy: public
 tags:
+  - publico
   - linux/virtualizacao
   - linux/kvm
   - linux/virt-manager
@@ -13,7 +16,14 @@ tags:
 
 ---
 
-## 📦 1. Instalar Virt Manager
+## 📦 1. Instalar Virt Manager & KVM
+
+### Omarchy & Arch Linux
+
+```bash
+sudo pacman -S --needed qemu-desktop virt-manager virt-viewer dnsmasq bridge-utils iptables-nft edk2-ovmf
+sudo systemctl enable --now libvirtd
+```
 
 ### Fedora
 
@@ -73,7 +83,7 @@ sudo apt install -y qemu-guest-agent
 ```
 
 ## 🔗 Notas Relacionadas
-- [Linux: Windows 11 no KVM](./virtualizacao--win11-kvm.md) — Como instalar Windows 11 no KVM.
-- [Containers: Distrobox e Docker](./containers--distrobox-docker-v2.md) — Gerenciamento de containers com Distrobox e Docker.
-- [Linux: Pós-instalação do Fedora](./fedora--pos-instalacao.md) — Guia completo de configuração após instalação do Fedora.
-- [T.I. — Mapa de Conteúdo](../README.md) — Índice geral.
+- [Linux: Windows 11 no KVM](./06_virtualizacao_win11_kvm.md) — Como instalar Windows 11 no KVM.
+- [Containers: Distrobox e Docker](./04_containers_distrobox_docker.md) — Gerenciamento de containers com Distrobox e Docker.
+- [Linux: Pós-instalação do Fedora](./03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
+- [T.I. — Mapa de Conteúdo](README.md) — Índice geral.

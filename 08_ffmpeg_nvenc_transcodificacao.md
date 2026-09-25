@@ -1,7 +1,10 @@
 ---
 title: "FFmpeg: Transcodificação de Vídeo com NVIDIA NVENC"
 date_created: 2026-08-17
+author: "Bruno César / Antigravity"
+privacy: public
 tags:
+  - publico
   - linux/ffmpeg
   - linux/nvidia
   - linux/multimedia
@@ -125,5 +128,5 @@ sudo dnf group upgrade core
 > [!info] O grupo `core` atualiza componentes críticos do sistema (utilitários do kernel, inicialização e ferramentas básicas).
 
 ## 🔗 Notas Relacionadas
-- [Linux: Pós-instalação do Fedora](fedora--pos-instalacao.md) — Guia completo de configuração após instalação do Fedora.
-- [Linux: Atualizar Pacotes](1-atualizar-pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
+- [Linux: Pós-instalação do Fedora](03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
+- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
