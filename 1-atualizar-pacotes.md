@@ -1,0 +1,44 @@
+---
+title: "Linux: Atualizar Pacotes"
+date_created: 2026-08-17
+tags:
+  - linux/atualizacao
+  - linux/fedora
+  - linux/ubuntu
+---
+
+# 🔄 Linux: Atualizar Pacotes
+
+> [!info] Comandos para atualizar pacotes no Fedora e Ubuntu, garantindo que o sistema esteja sempre na versão mais recente.
+
+---
+
+## 🐧 Fedora
+
+> [!info] O pull mais recente das atualizações de segurança (Fastest Mirror + 10 downloads paralelos configurado no pós-instalação).
+
+```bash
+sudo dnf upgrade --refresh
+```
+
+> [!tip] Para atualizar para uma nova versão do Fedora, use o plugin de upgrade de sistema:
+> ```bash
+> sudo dnf system-upgrade reboot
+> ```
+
+---
+
+## 🟠 Ubuntu
+
+```bash
+sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
+```
+
+> [!tip] Após o término, é recomendado reiniciar o computador se houver atualização de kernel:
+> ```bash
+> systemctl reboot
+> ```
+
+## 🔗 Notas Relacionadas
+- [Linux: Pós-instalação do Fedora](fedora--pos-instalacao.md) — Guia completo de configuração após instalação do Fedora.
+- [Linux: Homebrew](homebrew.md) — Instalação do Homebrew para gerenciar pacotes sem sudo.
