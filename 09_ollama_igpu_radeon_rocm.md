@@ -68,3 +68,10 @@ ollama ps
 ## 🔗 Fontes
 - [Ollama Docs — GPU FAQ](https://github.com/ollama/ollama/blob/main/docs/gpu.md)
 - [Ollama — problema de iGPU (GitHub #issues)](https://github.com/ollama/ollama/issues)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Omarchy: Pós-instalação](02_omarchy_pos_instalacao.md) — Drivers AMDGPU e suporte a ROCm no Arch Linux.
+- [Containers com Distrobox e Docker](04_containers_distrobox_docker.md) — Execução do Ollama isolado em container.
+- [Guia Principal de Linux](README.md) — Índice geral.

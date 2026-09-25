@@ -56,6 +56,10 @@ sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
 > systemctl reboot
 > ```
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: Pós-instalação do Fedora](03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
-- [Linux: Homebrew](10_homebrew_gerenciador_pacotes.md) — Instalação do Homebrew para gerenciar pacotes sem sudo.
+- [Omarchy: Pós-instalação](02_omarchy_pos_instalacao.md) — Guia mestre de pós-instalação da estação Omarchy.
+- [Fedora: Pós-instalação](03_fedora_pos_instalacao.md) — Configuração de mirrors e repositórios do Fedora.
+- [Homebrew: Gerenciador de Pacotes](10_homebrew_gerenciador_pacotes.md) — Gestão de utilitários de usuário sem sudo.
+- [Guia Principal de Linux](README.md) — Mapa de conteúdo de sistemas Linux.

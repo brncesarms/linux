@@ -225,7 +225,10 @@ omarchy capture text                # extrai texto de uma captura (OCR)
 | Status (CPU/memória) | `omarchy system stats` |
 | Resetar config p/ padrão | `omarchy refresh <app>` |
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- [Linux: FFmpeg com NVIDIA](08_ffmpeg_nvenc_transcodificacao.md) — Transcodificação de vídeo com aceleração NVENC.
-- [Containers: Distrobox e Docker](04_containers_distrobox_docker.md) — Gerenciamento de containers.
+- [Containers com Distrobox e Docker](04_containers_distrobox_docker.md) — Isolamento de workloads no Omarchy.
+- [Varredura e Seleção de Canais Wi-Fi](07_wifi_varredura_canais_nmcli.md) — Otimização de rede sem fio com nmcli.
+- [FFmpeg com Aceleração NVENC](08_ffmpeg_nvenc_transcodificacao.md) — Processamento multimídia acelerado por GPU.
+- [Atualizar Pacotes Multi-Distro](01_atualizar_pacotes.md) — Rotinas de atualização do Arch e AUR.

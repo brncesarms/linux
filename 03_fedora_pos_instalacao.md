@@ -117,7 +117,9 @@ sudo dnf install xorg-x11-drv-nvidia-cuda
 
 ```
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: FFmpeg com NVIDIA](08_ffmpeg_nvenc_transcodificacao.md) — Transcodificação de vídeo com aceleração NVENC.
-- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- [Linux: Virt Manager](05_virtualizacao_virt_manager.md) — Instalação e configuração do Virt Manager para virtualização.
+- [Atualizar Pacotes Multi-Distro](01_atualizar_pacotes.md) — Comandos de atualização do DNF e sistema.
+- [FFmpeg com Aceleração NVENC](08_ffmpeg_nvenc_transcodificacao.md) — Codecs multimídia e aceleração por hardware.
+- [Virt-Manager & Hipervisor KVM](05_virtualizacao_virt_manager.md) — Virtualização local no Fedora.

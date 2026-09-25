@@ -41,6 +41,9 @@ git config --global user.email "SEU_EMAIL@exemplo.com"
 git config --global user.name "SEU_USUARIO"
 ```
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- [Linux: Homebrew](10_homebrew_gerenciador_pacotes.md) — Instalação do Homebrew para gerenciar pacotes sem sudo.
+- [Omarchy: Pós-instalação](02_omarchy_pos_instalacao.md) — Ambiente de desenvolvimento e chave SSH.
+- [Homebrew: Gerenciador de Pacotes](10_homebrew_gerenciador_pacotes.md) — Instalação de utilitários auxiliares (gh, delta).
+- [Guia Principal de Linux](README.md) — Índice geral.

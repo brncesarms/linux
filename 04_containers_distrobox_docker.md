@@ -188,7 +188,9 @@ docker start NOME_CONTAINER && docker exec -d NOME_CONTAINER /usr/bin/google-chr
 
 > [!warning] Para aplicativos gráficos (GUI), o container deve ter sido criado com permissões de vídeo/display compartilhadas com o host (`-e DISPLAY=$DISPLAY` e `-v /tmp/.X11-unix:/tmp/.X11-unix`). Execute `xhost +local:docker` no terminal do sistema antes de abrir o aplicativo.
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: Virt Manager](./05_virtualizacao_virt_manager.md) — Instalação e configuração do Virt Manager para virtualização.
-- [Linux: Pós-instalação do Fedora](./03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
-- [T.I. — Mapa de Conteúdo](README.md) — Índice geral.
+- [Omarchy: Pós-instalação](02_omarchy_pos_instalacao.md) — Setup de desenvolvimento do Omarchy.
+- [Virt-Manager & Hipervisor KVM](05_virtualizacao_virt_manager.md) — Comparativo entre virtualização e containers.
+- [Guia Principal de Linux](README.md) — Mapa de conteúdo de sistemas Linux.

@@ -71,6 +71,9 @@ brew doctor
 
 ```
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- [Linux: Pós-instalação do Fedora](03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
+- [Atualizar Pacotes Multi-Distro](01_atualizar_pacotes.md) — Gerenciamento complementar aos pacotes de sistema.
+- [Instalação e Configuração do Git](11_git_instalacao_configuracao.md) — Controle de versão e ferramentas CLI.
+- [Guia Principal de Linux](README.md) — Índice geral.

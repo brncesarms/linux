@@ -24,6 +24,9 @@ O VirtIO Win ISO é necessário para instalar os drivers do Windows no KVM:
 
 > [!tip] Certifique-se de baixar a versão mais recente compatível com o Windows 11.
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: Virt Manager](05_virtualizacao_virt_manager.md) — Instalação e configuração do Virt Manager para virtualização.
-- [Linux: Pós-instalação do Fedora](03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
+- [Virt-Manager & Hipervisor KVM](05_virtualizacao_virt_manager.md) — Provisionamento da stack QEMU/KVM/libvirt.
+- [Omarchy: Pós-instalação](02_omarchy_pos_instalacao.md) — Habilitação de módulos de kernel de virtualização.
+- [Guia Principal de Linux](README.md) — Índice de engenharia Linux.

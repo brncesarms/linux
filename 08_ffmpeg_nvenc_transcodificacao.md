@@ -127,6 +127,9 @@ sudo dnf group upgrade core
 
 > [!info] O grupo `core` atualiza componentes críticos do sistema (utilitários do kernel, inicialização e ferramentas básicas).
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: Pós-instalação do Fedora](03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
-- [Linux: Atualizar Pacotes](01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
+- [Omarchy: Pós-instalação](02_omarchy_pos_instalacao.md) — Drivers proprietários NVIDIA e CUDA.
+- [Fedora: Pós-instalação](03_fedora_pos_instalacao.md) — Configuração de codecs RPM Fusion.
+- [Guia Principal de Linux](README.md) — Índice geral.

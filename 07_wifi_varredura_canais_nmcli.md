@@ -122,7 +122,9 @@ nmcli device wifi hotspot channel <numero_do_canal>
 > [!note] Resumo
 > O `nmcli` cuida apenas do lado da recepção do seu dispositivo Linux. A escolha final do canal e da largura de banda é feita no painel administrativo do seu roteador, seguindo a regra dos canais 1/6/11 (2.4 GHz) ou dos canais não-DFS 36-48 e 149-165 (5 GHz).
 
+---
+
 ## 🔗 Notas Relacionadas
-- [Linux: Pós-instalação do Fedora](./03_fedora_pos_instalacao.md) — Guia completo de configuração após instalação do Fedora.
-- [Linux: Atualizar Pacotes](./01_atualizar_pacotes.md) — Comandos para atualizar pacotes no Fedora e Ubuntu.
-- 🎓 [T.I. — Mapa de Conteúdo](README.md) — Índice geral.
+- [Omarchy: Pós-instalação](02_omarchy_pos_instalacao.md) — Configuração e gestão de adaptadores Wi-Fi.
+- [Atualizar Pacotes Multi-Distro](01_atualizar_pacotes.md) — Manutenção de pacotes de rede e firmware.
+- [Guia Principal de Linux](README.md) — Índice geral.
