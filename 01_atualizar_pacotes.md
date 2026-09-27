@@ -38,9 +38,9 @@ sudo pacman -Syu
 sudo dnf upgrade --refresh
 ```
 
-> [!tip] Para atualizar para uma nova versão do Fedora, use o plugin de upgrade de sistema:
+> [!tip] Para atualizar para uma nova versão do Fedora, use o plugin de upgrade de sistema (reinicie após a conclusão):
 > ```bash
-> sudo dnf system-upgrade reboot
+> sudo dnf system-upgrade download && sudo dnf system-upgrade reboot
 > ```
 
 ---
@@ -51,10 +51,7 @@ sudo dnf upgrade --refresh
 sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y
 ```
 
-> [!tip] Após o término, é recomendado reiniciar o computador se houver atualização de kernel:
-> ```bash
-> systemctl reboot
-> ```
+> [!note] Após o término, se houver atualização de kernel, é recomendado reiniciar o computador manualmente.
 
 ---
 

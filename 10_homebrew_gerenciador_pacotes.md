@@ -17,17 +17,20 @@ tags:
 
 ## 📦 1. Instalar dependências
 
+- **Omarchy & Arch Linux**
+```bash
+sudo pacman -S --needed base-devel procps-ng curl file git
+```
+
 - **Fedora**
 ```bash
 sudo dnf group install -y "Development Tools"
 sudo dnf install -y procps-ng curl file git
-
 ```
 
 - **Ubuntu**
 ```bash
 sudo apt update && sudo apt install -y build-essential procps curl file git
-
 ```
 
 ---

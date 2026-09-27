@@ -81,9 +81,9 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 ```bash
 sudo dnf swap ffmpeg-free ffmpeg --allowerasing
-sudo systemctl reboot
-
 ```
+
+> [!note] Reinicie a máquina manualmente após a troca de codecs para aplicar todas as alterações.
 
 ```bash
 sudo dnf group upgrade core

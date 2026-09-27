@@ -17,16 +17,19 @@ tags:
 
 ## 📦 1. Instalar o Git
 
+- **Omarchy & Arch Linux**
+```bash
+sudo pacman -S --needed git
+```
+
 - **Fedora**
 ```bash
 sudo dnf install -y git
-
 ```
 
 - **Ubuntu**
 ```bash
-sudo apt install -y git
-
+sudo apt update && sudo apt install -y git
 ```
 
 ---

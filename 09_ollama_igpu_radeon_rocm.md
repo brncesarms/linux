@@ -23,7 +23,22 @@ tags:
 ```
 msg="dropping integrated GPU; to enable, set OLLAMA_IGPU_ENABLE=1" id=0 library=Vulkan
 description="AMD Radeon 780M Graphics (RADV PHOENIX)"
+## 📦 0. Instalação do Ollama
+
+### Omarchy & Arch Linux
+
+```bash
+sudo pacman -S --needed ollama
+sudo systemctl enable --now ollama
 ```
+
+### Ubuntu
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+---
 
 ## ✅ Solução
 

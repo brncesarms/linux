@@ -16,11 +16,20 @@ tags:
 
 ---
 
-## 📥 Download do VirtIO Win ISO
+## 📥 Download do VirtIO Win ISO & Drivers
 
-O VirtIO Win ISO é necessário para instalar os drivers do Windows no KVM:
+O VirtIO Win ISO é necessário para instalar os drivers do Windows 11 no KVM:
 
-- **Fedora:** [VirtIO Win ISO](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/)
+### Omarchy & Arch Linux
+
+```bash
+sudo pacman -S --needed virtio-win
+```
+
+### Fedora & Ubuntu
+
+Baixe o pacote ou a imagem ISO oficial diretamente:
+- **Fedora / Ubuntu ISO:** [Direct Download FedoraPeople (VirtIO Win ISO)](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/)
 
 > [!tip] Certifique-se de baixar a versão mais recente compatível com o Windows 11.
 

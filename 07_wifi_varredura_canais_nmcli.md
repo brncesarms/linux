@@ -25,6 +25,24 @@ Para obter a melhor performance no Wi-Fi doméstico, o objetivo principal é **m
 
 ---
 
+## 📦 0. Instalar NetworkManager (`nmcli`)
+
+### Omarchy & Arch Linux
+
+```bash
+sudo pacman -S --needed networkmanager
+sudo systemctl enable --now NetworkManager
+```
+
+### Ubuntu
+
+```bash
+sudo apt update && sudo apt install -y network-manager
+sudo systemctl enable --now NetworkManager
+```
+
+---
+
 ## 🔍 Passo 1: Varredura de Redes ao Redor
 
 O comando básico para listar todos os pontos de acesso (APs) ao seu redor e identificar seus respectivos canais é:

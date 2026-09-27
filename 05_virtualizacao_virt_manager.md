@@ -12,7 +12,7 @@ tags:
 
 # 🖥️ Virt Manager: Virtualização no Linux
 
-> [!info] Instalação e configuração do Virt Manager para gerenciamento de máquinas virtuais usando KVM no Fedora e Ubuntu.
+> [!info] Instalação e configuração do Virt Manager para gerenciamento de máquinas virtuais usando KVM no Omarchy (Arch Linux), Fedora e Ubuntu.
 
 ---
 
@@ -28,58 +28,66 @@ sudo systemctl enable --now libvirtd
 ### Fedora
 
 ```bash
-sudo dnf install @virtualization
-systemctl reboot
-
+sudo dnf install -y @virtualization
+sudo systemctl enable --now libvirtd
 ```
 
 ### Ubuntu
 
 ```bash
-sudo apt install -y qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager
-systemctl reboot
-
+sudo apt update && sudo apt install -y qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager
+sudo systemctl enable --now libvirtd
 ```
 
 ---
 
 ## ⚙️ 2. Configurar permissões do usuário
 
-> [!tip] Para gerenciar suas VMs de forma nativa, ágil e segura com o seu próprio usuário, adicione sua conta aos grupos libvirt e kvm.
+> [!tip] Para gerenciar suas VMs de forma nativa, ágil e segura com o seu próprio usuário (sem solicitar sudo no Virt-Manager), adicione sua conta aos grupos `libvirt` e `kvm`.
+
+### Omarchy & Arch Linux
+
+```bash
+sudo usermod -aG libvirt,kvm $USER
+```
 
 ### Fedora
 
 ```bash
 sudo usermod -aG libvirt $USER
-systemctl reboot
-
 ```
 
 ### Ubuntu
 
 ```bash
-sudo usermod -aG libvirt $USER
-sudo usermod -aG kvm $USER
-systemctl reboot
-
+sudo usermod -aG libvirt,kvm $USER
 ```
+
+> [!note] Após adicionar o usuário aos grupos, faça logout e login novamente (ou execute `newgrp libvirt`) para aplicar as novas permissões.
 
 ---
 
-## 📦 3. Instalar QEMU Guest Agent
+## 📦 3. Instalar QEMU Guest Agent (Dentro da VM)
+
+### Omarchy & Arch Linux
+
+```bash
+sudo pacman -S --needed qemu-guest-agent
+sudo systemctl enable --now qemu-guest-agent
+```
 
 ### Fedora
 
 ```bash
 sudo dnf install -y qemu-guest-agent
-
+sudo systemctl enable --now qemu-guest-agent
 ```
 
 ### Ubuntu
 
 ```bash
 sudo apt install -y qemu-guest-agent
-
+sudo systemctl enable --now qemu-guest-agent
 ```
 
 ---

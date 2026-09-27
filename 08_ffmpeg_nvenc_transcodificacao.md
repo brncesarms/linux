@@ -16,7 +16,29 @@ tags:
 
 ---
 
-## 🎥 Comandos Principais
+## 📦 1. Instalar FFmpeg
+
+### Omarchy & Arch Linux
+
+```bash
+sudo pacman -S --needed ffmpeg libva-utils vulkan-icd-loader
+```
+
+### Fedora
+
+```bash
+sudo dnf install -y ffmpeg ffmpeg-free
+```
+
+### Ubuntu
+
+```bash
+sudo apt update && sudo apt install -y ffmpeg
+```
+
+---
+
+## 🎥 2. Comandos Principais
 
 ### Sem perda de qualidade
 

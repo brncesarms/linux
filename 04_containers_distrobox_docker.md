@@ -46,6 +46,34 @@ tags:
 
 ---
 
+## 📦 0. Instalar Docker e Distrobox
+
+### Omarchy & Arch Linux
+
+```bash
+sudo pacman -S --needed docker distrobox podman
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+```
+
+### Fedora
+
+```bash
+sudo dnf install -y docker distrobox podman
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+```
+
+### Ubuntu
+
+```bash
+sudo apt update && sudo apt install -y docker.io distrobox podman
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+```
+
+---
+
 ## 📦 1. Criando Container
 
 ### Distrobox
